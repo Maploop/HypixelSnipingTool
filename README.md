@@ -1,6 +1,11 @@
 # HypixelSnipingTool
 
-How to use:
+### How to use:
+
+Before you continue on with reading, remember that this program needs
+a basic amount of knowledge of .bat files and java for you to be able to
+use it.
+
 1. Download the artifact from releases page
 2. Create a file named start.bat in the same folder as the jar file
 3. Use the java -jar <FileName> command in your .bat file to run the program
