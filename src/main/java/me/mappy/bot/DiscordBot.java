@@ -1,5 +1,6 @@
 package me.mappy.bot;
 
+import me.mappy.LoginListener;
 import me.mappy.util.Config;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
@@ -16,7 +17,9 @@ public class DiscordBot {
 
             jda = builder.build();
         } catch (Exception ex) {
-            ex.printStackTrace();
+            System.out.println("An error occurred while logging into the bot: " + ex.getMessage());
+            System.out.println("Terminating process.");
+            LoginListener.terminate();
         }
     }
 }

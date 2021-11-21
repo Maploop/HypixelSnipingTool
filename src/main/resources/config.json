@@ -1,9 +1,12 @@
 {
-  "token": "",
-  "channel-id": 0,
+  "license": "",
+  "checks": [],
   "api-key": "",
-  "checks": [
-    "",
-    ""
-  ]
+  "channel-id": 0,
+  "accent": {
+    "color": "227,226,225,255",
+    "background": "57,57,57,255",
+    "foreground": "227,226,225,255"
+  },
+  "token": ""
 }

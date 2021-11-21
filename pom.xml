@@ -33,9 +33,6 @@
                     <execution>
                         <id>first-output</id>
                         <phase>package</phase>
-                        <configuration>
-                            <outputFile>C:\Users\hundr\Desktop\kos\${project.artifactId}-${project.version}.jar</outputFile>
-                        </configuration>
                         <goals>
                             <goal>shade</goal>
                         </goals>
